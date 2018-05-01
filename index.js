@@ -21,9 +21,9 @@ function viewCart() {
   // write your code here
   var answer="In your cart, you have"
   for (var i = 0; i < cart.length-1; i++) {
-    answer = answer + ` ${cart[i].itemName} at ${cart[i].itemPrice},`
+    answer = answer + ` ${getCart()[i].itemName} at ${cart[i].itemPrice},`
   }
-  answer = answer + ` ${cart[i].itemName} at ${cart[i].itemPrice}.`
+  answer = answer + ` ${getCart()[i].itemName} at ${cart[i].itemPrice}.`
   return answer
 }
 
