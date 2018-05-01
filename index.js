@@ -12,6 +12,7 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  item.push({item:Math.floor(Math.random()*51)})
+ item[item]=Math.floor(Math.random*51)
 
  return `${item[item.length-1]} has been added to your cart.`
 }
