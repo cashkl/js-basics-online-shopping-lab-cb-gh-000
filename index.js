@@ -14,7 +14,7 @@ function addToCart(item) {
  //item.push({item:Math.floor(Math.random()*51)})
  cart[item]=Math.floor(Math.random*51)
 
- return `${cart[item.length-1]} has been added to your cart.`
+ return `${item} has been added to your cart.`
 }
 
 function viewCart() {
